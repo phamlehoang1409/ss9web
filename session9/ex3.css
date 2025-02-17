@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    height: 150px;
+    padding: 20px;
+}
+
+.head {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    flex: 1; 
+}
+.row:first-child .box:first-child {
+    flex: 2;
+}
+.row:nth-child(2) .box:first-child {
+    flex: 2;
+}
